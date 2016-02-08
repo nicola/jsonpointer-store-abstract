@@ -2,10 +2,10 @@ module.exports = MemoryStore
 
 var jsonpointer = require('jsonpointer')
 
-function MemoryStore (opts) {
+function MemoryStore (data, opts) {
   if (!(this instanceof MemoryStore)) return new MemoryStore()
   opts = opts || {}
-  this.data = opts.data
+  this.data = data || {}
 }
 
 MemoryStore.prototype.get = function (url, cb) {
