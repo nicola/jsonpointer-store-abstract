@@ -1,0 +1,25 @@
+{
+  "name": "jsonpointer-store-abstract",
+  "version": "0.1.0",
+  "description": "JSON Pointers in-memory store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicola/jsonpointer-store-abstract"
+  },
+  "keywords": [
+    "jsonpointer"
+  ],
+  "author": "Nicola Greco <me@nicola.io> (http://nicolagreco.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicola/jsonpointer-store-abstract/issues"
+  },
+  "homepage": "https://github.com/nicola/jsonpointer-store-abstract",
+  "dependencies": {
+    "jsonpointer": "^3.0.0"
+  }
+}
