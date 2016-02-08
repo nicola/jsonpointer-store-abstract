@@ -3,7 +3,7 @@ module.exports = MemoryStore
 var jsonpointer = require('jsonpointer')
 
 function MemoryStore (data, opts) {
-  if (!(this instanceof MemoryStore)) return new MemoryStore()
+  if (!(this instanceof MemoryStore)) return new MemoryStore(data, opts)
   opts = opts || {}
   this.data = data || {}
 }
